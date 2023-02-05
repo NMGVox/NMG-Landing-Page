@@ -2,4 +2,42 @@ body{
     display:flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0px;
+    /* background-color: #1F2937; */
 }
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 12px;
+}
+
+.headerlink{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.logo-container {
+    margin-left: 64px;
+}
+
+.listlinks {
+    list-style-type: none;
+    display:flex;
+    gap: 8px;
+    margin-left: auto;
+    margin-right: 64px;
+}
+
