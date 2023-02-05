@@ -122,4 +122,34 @@ button{
     border-color: #3882F6;
 }
 
+/*Styling for elements in the quotesection section begin here! */
+
+.quotesection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding:100px 0;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 600px;
+    justify-content: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+.quotesrc{
+    align-self: flex-end;
+}
+
+
+
 
