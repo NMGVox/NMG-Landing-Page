@@ -74,6 +74,7 @@ button{
     border-radius: 8px;
     padding: 8px 12px;
     color:#E5E7EB;
+    border-style:none;
 }
 
 .image-container{
@@ -150,6 +151,42 @@ button{
     align-self: flex-end;
 }
 
+/* Styling for elements in the last-signup-beg section begin here!!!!*/
 
+.last-signup-beg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.signup-container{
+    border-radius: 16px;
+    background-color: #3882F6;
+    flex: 0 1 800px;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0px;
+}
+
+.signup-container h2 {
+    font-size: 20px;
+    color:#F9FAF8;
+    margin-bottom: 4px;
+}
+
+.signup-container p {
+    font-size:16px;
+    color: #F9FAF8;
+    margin-top:4px;
+}
+
+.signup-container button{
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-width: 2px;
+    padding: 8px 12px;
+    align-self: center;
+}
 
 
