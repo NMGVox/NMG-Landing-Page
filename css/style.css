@@ -85,5 +85,41 @@ button{
     flex: 0 0 600px;
 }
 
+/*Styling for elements in the infoscetion scetion start here!!!*/
+
+.infosection{
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text{
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+    margin-bottom: 16px;
+}
+
+.imagerow{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.imagerow-element{
+    flex: 0 0 200px;
+    text-align: center;
+}
+
+.image-container-small{
+    border-style: solid;
+    border-radius: 20px;
+    height: 200px;
+    width: auto;
+    border-color: #3882F6;
+}
 
 
