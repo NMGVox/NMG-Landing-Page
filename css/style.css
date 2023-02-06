@@ -5,6 +5,9 @@ body{
     margin: 0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* background-color: #1F2937; */
+    background: url("./../images/wallpaper.jpg");
+    background-position: 50% 30%;
+    background-attachment: fixed;
 }
 
 ul{
@@ -15,7 +18,7 @@ ul{
 .header{
     display:flex;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #b64a02e8;
     gap: 48px;
     justify-content: space-around;
 }
@@ -50,8 +53,20 @@ ul{
     align-items: center;
     padding: 72px 0px;
     /* gap: 32px; */
-    background-color: #1F2937;
+    background-color: #b4876da4;
+    margin-bottom: 32px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
+
+/* .landing-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 48px 72px;
+    background-color: #b4876da4;
+    border-radius: 24px;
+} */
 
 .hello {
     flex: 0 1 500px;
@@ -60,21 +75,22 @@ ul{
 .hello h1{
     font-size: 48px;
     font-weight: bolder;
-    color:#F9FAF8;
+    color:#fff7f1;
     margin-bottom: 0px;
 }
 
 .hello p{
     font-size: 18px;
-    color:#E5E7EB;
+    color:#fff7f1;
 }
 
 button{
-    background-color: #3882F6;
+    background-color: #f37d2fe8;
     border-radius: 8px;
     padding: 8px 12px;
-    color:#E5E7EB;
+    color:#fff7f1;
     border-style:none;
+    font-weight: bold;
 }
 
 .image-container{
@@ -84,6 +100,10 @@ button{
     background-color: #E5E7EB;
     height: 300px;
     flex: 0 0 600px;
+    border-style: solid;
+    border-color: #f37d2f75;
+    border-radius: 40px;
+    border-width: 2px;
 }
 
 /*Styling for elements in the infoscetion scetion start here!!!*/
@@ -99,15 +119,21 @@ button{
 .info-text{
     font-size: 36px;
     font-weight:bolder;
-    color: #1F2937;
+    color: #fff7f1;
     margin-bottom: 16px;
+    background-color: #f37d2f73;
+    padding: 8px 32px;
+    border-radius: 15px;
 }
 
 .imagerow{
     display:flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
     gap: 16px;
+    background-color: #b4876da4;
+    padding: 32px 64px;
+    border-radius: 24px;
 }
 
 .imagerow-element{
@@ -115,12 +141,24 @@ button{
     text-align: center;
 }
 
+.imagerow-element p{
+    color: #fff7f1;
+    background-color: #f37d2f73;
+    padding: 8px 16px;
+    border-radius: 12px;
+}
+
 .image-container-small{
     border-style: solid;
     border-radius: 20px;
     height: 200px;
-    width: auto;
-    border-color: #3882F6;
+    width: 200px;
+    border-color: #b49481a6;
+    object-fit: cover;
+}
+
+.image-container-small:hover{
+    border-color:rgb(245, 102, 66);
 }
 
 /*Styling for elements in the quotesection section begin here! */
@@ -129,8 +167,10 @@ button{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color: #b4876da4;
     padding:100px 0;
+    border-radius: 15px;
+    margin-top: 100px;
 }
 
 .quote-container{
@@ -138,6 +178,9 @@ button{
     flex-direction: column;
     flex: 0 1 600px;
     justify-content: center;
+    /* background-color: #b4876da4;
+    padding: 20px 45px;
+    border-radius: 15px; */
 }
 
 .quote{
@@ -145,6 +188,7 @@ button{
     font-style: italic;
     font-weight: lighter;
     margin-bottom: 8px;
+    color: #fff7f1;
 }
 
 .quotesrc{
@@ -162,7 +206,7 @@ button{
 
 .signup-container{
     border-radius: 16px;
-    background-color: #3882F6;
+    background-color: #f37d2fe8;
     flex: 0 1 800px;
     display: flex;
     justify-content: space-around;
@@ -194,14 +238,17 @@ button{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #b64a02e8;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     padding: 16px 0px;
     flex: 0 0 auto;
 }
 
 .footer-text{
-    color:#E5E7EB;
+    color:#fff7f1;
     font-size: 16px;
+    font-weight: bolder;
 }
 
 
