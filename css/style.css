@@ -159,6 +159,7 @@ button{
     width: 200px;
     border-color: #b49481a6;
     object-fit: cover;
+    transition: transform .2s;
 }
 
 .image-container-small:hover{
