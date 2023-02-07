@@ -106,6 +106,10 @@ button{
     border-width: 2px;
 }
 
+.image-container:hover{
+    border-color: rgb(245, 102, 66);
+}
+
 /*Styling for elements in the infoscetion scetion start here!!!*/
 
 .infosection{
@@ -159,6 +163,7 @@ button{
 
 .image-container-small:hover{
     border-color:rgb(245, 102, 66);
+    transform:scale(1.2);
 }
 
 /*Styling for elements in the quotesection section begin here! */
